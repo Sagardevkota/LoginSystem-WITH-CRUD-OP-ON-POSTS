@@ -1,0 +1,36 @@
+.SideBar{
+            
+    max-width: 250px;
+    
+    display: flex;
+  
+    
+    grid-area: sidenav;
+    
+    
+    flex-flow: column;
+  
+
+
+}
+
+.SideBar ul{
+    list-style: none;
+    
+    padding: 0;
+    color: white;
+    margin-top: 85px
+   
+}
+
+.SideBar li{
+    color: white;
+    padding: 20px 20px 20px 40px;
+
+
+}
+
+.SideBar li:hover{
+    color: red;
+
+}

@@ -1,0 +1,87 @@
+
+
+.fragment,h2{
+    color: #14b8d9;
+}
+
+.button{
+    margin-top: 20px;
+    width: 300px;
+    border-radius: 4px;
+    
+    box-sizing: border-box;
+cursor: pointer;
+text-align: center;
+font-weight: 700;
+}
+
+.userForm{
+    margin: 10% auto;
+
+ width: 430px;
+ box-sizing: border-box;
+ border: solid;
+ border-radius: 1px;
+ border-color: whitesmoke;
+ padding: 40px 32px;
+ 
+ border-width: 1px;
+    
+     background-color: #ffffff;
+     padding: 16px;
+     
+   
+   
+}
+
+@media(min-width:375px){
+    .userForm{
+        margin: 10% auto;
+         border-width: 1px;
+      
+      
+       width: 375px;
+       height: 50%;
+       box-sizing: border-box;
+ border: solid;
+ padding: 40px 32px;
+
+ border-radius: 1px;
+ border-color: whitesmoke;
+    
+          
+           background-color: #ffffff;
+       
+      
+         
+      }
+
+
+}
+
+@media(min-width:360px){
+    .userForm{
+        margin: 10% auto;
+         border-width: 0.5px;
+         padding: 40px 32px;
+      
+      
+       width: 360px;
+       height: 50%;
+       box-sizing: border-box;
+ border: solid;
+
+ border-radius: 1px;
+ border-color: whitesmoke;
+    
+          
+           background-color: #ffffff;
+       
+      
+         
+      }
+
+
+}
+
+

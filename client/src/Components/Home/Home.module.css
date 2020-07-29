@@ -1,0 +1,95 @@
+
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    background-color:ghostwhite;
+    grid-template-areas:
+      "sidenav header"
+      "sidenav main"
+      "sidenav footer";
+    height: 100vh;
+  }
+  
+  /* Give every child element its grid name */
+  .header {
+     
+    grid-area: header;
+    
+    height: 60px;
+    text-align: center;
+    
+    margin-bottom: 20px;
+    margin: 5px 20px ;
+    
+    
+    
+  }
+  .header ul{
+   list-style: none;
+  }
+  .header li{
+      display: inline-block;
+      margin: 0 50px;
+  }
+  .header li:hover{
+      color: red;
+      cursor: pointer;
+  }
+  
+  
+  .sidenav {
+      
+    grid-area: sidenav;
+    background-image: linear-gradient(#141E30, #243B55);
+    height: 100%;
+   
+    box-shadow: 0 2px 3px #ccc;
+    color: white;
+  }
+  
+  .main {
+    grid-area: main;
+    margin-top: 20px;
+   
+  }
+
+.tab{
+   display: flex;
+   flex-wrap: row wrap;
+   
+  
+    
+}
+
+.root{
+    margin: 10px 10px;
+    flex: 25%;
+   
+
+}
+
+.cardContent{
+    color: black;
+    
+    
+    
+    
+    
+}
+.cardActions{
+
+}
+
+
+
+
+
+
+
+  
+  .footer {
+    grid-area: footer;
+    background-image: linear-gradient(#141E30, #243B55);
+  }
