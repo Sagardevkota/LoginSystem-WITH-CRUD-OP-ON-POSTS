@@ -6,7 +6,8 @@
 * Material UI Components
 * Login System(Form Validation & localstorage)
 * CRUD on post
-* Axios 
+* Fetching posts from jsonplaceholderAPI with axios
+* OnClick handler on posts to view full post
 
 
 
