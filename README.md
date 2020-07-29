@@ -1,3 +1,7 @@
+This project contains all the configuration needed to setup full stack environment with react JS as client and express Node JS as server
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
