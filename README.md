@@ -1,4 +1,12 @@
-This project contains all the configuration needed to setup full stack environment with react JS as client and express Node JS as server
+# This project contains all the configuration needed to setup full stack environment
+* React JS as client 
+* express Node JS as server
+
+# Extra Components
+* Material UI Components
+* Login System(Form Validation & localstorage)
+* CRUD on post
+* Axios 
 
 
 
