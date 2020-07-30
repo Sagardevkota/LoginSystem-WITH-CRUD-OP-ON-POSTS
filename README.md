@@ -4,7 +4,7 @@
 
 ## Extra Components
 * Material UI Components
-* Login System(Form Validation & localstorage with JWT)
+* Login System(Form Validation & localstorage for storing JWT)
 * CRUD on post
 * Fetching posts from jsonplaceholderAPI with axios
 * OnClick handler on posts to view full post
